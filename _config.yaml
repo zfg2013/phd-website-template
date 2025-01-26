@@ -8,12 +8,12 @@ proofer: false
 
 # site social media and other links
 links:
-  email: contact@zfg2013.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
+  email: zfg2013@ufl.edu
+  orcid: 0000-0001-9626-2694
+  google-scholar: ci3Oi-8AAAAJ&hl
   github: zfg2013
-  twitter: zfg2013
-  youtube: zfg2013
+  #twitter: zfg2013
+  #youtube: zfg2013
 
 ### jekyll settings
 
