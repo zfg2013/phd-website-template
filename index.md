@@ -34,15 +34,20 @@ To demonstrate this philosophy, I have demonstrated 4 different approaches to ha
 
 {% endcapture %}
 
-{% include feature.html image="images/photo.jpg" link="projects" title="Research Overview" text=text title_align="left" title_position="top" %}
+{% include feature.html image="images/GA.jpg" link="projects" title="Research Overview" text=text title_align="left" title_position="top" %}
 
 {% capture text %}
 
   &#8594; 5 first author publications (including submitted/in revision)
+  
   &#8594; 11 co-author publications (including submitted/in revision)
+  
   &#8594; 1 full patent application and 2 patent disclosures
+  
   &#8594; 18 awards, recognition, and grants
+  
   &#8594; 13 mentored students, 10 with academic awards or fellowships
+  
   &#8594; 1 international lecture
 
 {% endcapture %}
