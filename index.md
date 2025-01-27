@@ -24,7 +24,7 @@ The PhD defense is a cumulative presentation of scientific philosophy for a part
 
 {% endcapture %}
 
-{% include feature.html image="images/Timeline.jpeg" link="research" title="PhD Defense" text=text title_align="left" title_position="top" %}
+{% include feature.html full=true image="images/Timeline.jpeg" link="research" title="PhD Defense" text=text title_align="left" title_position="top" %}
 
 {% capture text %}
 
@@ -34,7 +34,7 @@ To demonstrate this philosophy, I have demonstrated 4 different approaches to ha
 
 {% endcapture %}
 
-{% include feature.html image="images/GA.jpeg" link="projects" title="Research Overview" text=text title_align="left" title_position="top" %}
+{% include feature.html full=true % image="images/GA.jpeg" link="projects" title="Research Overview" text=text title_align="left" title_position="top" %}
 
 {% capture text %}
 
@@ -52,4 +52,4 @@ To demonstrate this philosophy, I have demonstrated 4 different approaches to ha
 
 {% endcapture %}
 
-{% include feature.html image="images/photo.jpg" link="team" title="Cumulative Accomplishments" text=text title_align="left" title_position="top" %}
+{% include feature.html full=true image="images/photo.jpg" title="Cumulative Accomplishments" text=text title_align="left" title_position="top" %}
