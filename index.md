@@ -4,7 +4,7 @@ title: Home
 
 # Welcome to Zack's 2025 PhD Defense
 
-Thank you for supporting me over the last 7 years (yes, this is how long I've spent in PhD). I always dreamed of this day with you in the audience. The summary sections below provide an overview of the PhD defense (i.e., date & etiquette), my research, and selected awards. Page sections listed above provide further detail. See you all in November.
+Thank you for supporting me over the last 7 years (yes, this is how long I've spent in graduate school). I always dreamed of this day with you in the audience. The summary sections below provide an overview of the PhD defense (i.e., date & etiquette), my research, and selected awards. Page sections listed above provide further detail. See you all in November.
 
 {% include section.html full=true %}
 
@@ -12,23 +12,19 @@ Thank you for supporting me over the last 7 years (yes, this is how long I've sp
 
 {% capture text %}
 
-### Defense Month
-- November 2025 (Exact day, TBA)
+### Dates
+- Defense Date: November 2025 (Exact day, TBA)
+- Graduation Date: December 12, 2025, 2-4 PM
+- Attending: {% include button.html link="rsvp-link" text="RSVP Here" icon="fa-solid fa-arrow-right" flip=true style="bare" %}
 
-### Graduation Date
-- December 12, 2025, 2-4 PM
 
-### Attending?
-
-{% include button.html link="rsvp-link" text="RSVP Here" icon="fa-solid fa-arrow-right" flip=true style="bare" %}
-
-#### PhD Summary
+### PhD Summary
 
 The PhD defense is a cumulative presentation of scientific philosophy for a particular expertise acquired by the student. The student will defend their philosophy by conveying their accumulated evidence to the audience and examiners. In my case, my current philosophy is that artificial intelligence (AI)-driven experimentation accelerates precision medicine development.
 
 {% endcapture %}
 
-{% include feature.html image="images/photo.jpg" link="research" title="PhD Defense" text=text title_align="left" title_position="top" %}
+{% include feature.html image="images/Timeline.jpg" link="research" title="PhD Defense" text=text title_align="left" title_position="top" %}
 
 {% capture text %}
 
