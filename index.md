@@ -15,7 +15,7 @@ Thank you for supporting me over the last 7 years (yes, this is how long I've sp
 ### Dates
 - Defense Date: November 2025 (Exact day, TBA)
 - Graduation Date: December 12, 2025, 2-4 PM
-- Attending: {% include button.html link="rsvp-link" text="RSVP Here" icon="fa-solid fa-arrow-right" flip=true style="bare" %}
+- Attending?: {% include button.html link="rsvp-link" text="RSVP Here" icon="fa-solid fa-arrow-right" flip=false style="bare" %}
 
 
 ### PhD Summary
@@ -24,7 +24,7 @@ The PhD defense is a cumulative presentation of scientific philosophy for a part
 
 {% endcapture %}
 
-{% include feature.html image="images/Timeline.jpg" link="research" title="PhD Defense" text=text title_align="left" title_position="top" %}
+{% include feature.html image="images/Timeline.jpeg" link="research" title="PhD Defense" text=text title_align="left" title_position="top" %}
 
 {% capture text %}
 
@@ -34,7 +34,7 @@ To demonstrate this philosophy, I have demonstrated 4 different approaches to ha
 
 {% endcapture %}
 
-{% include feature.html image="images/GA.jpg" link="projects" title="Research Overview" text=text title_align="left" title_position="top" %}
+{% include feature.html image="images/GA.jpeg" link="projects" title="Research Overview" text=text title_align="left" title_position="top" %}
 
 {% capture text %}
 
